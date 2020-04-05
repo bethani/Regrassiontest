@@ -1,53 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="59" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
+  <suite name="Default suite" duration-ms="131" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="59" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
-      <class name="calculator.CalculatorTest">
-        <test-method status="PASS" signature="anduAlemTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="anduAlemTest" duration-ms="10" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
+    <test name="Default test" duration-ms="131" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
+      <class name="calculator.CalculatormackTest">
+        <test-method status="FAIL" signature="MackTest4()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="MackTest4" duration-ms="67" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[com.google.common.base.Preconditions.checkState(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: com.google.common.base.Preconditions.checkState(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:36)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:195)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:389)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:118)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+at calculator.CalculatormackTest.MackTest4(CalculatormackTest.java:74)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MackTest4 -->
+        <test-method status="PASS" signature="anduAlemTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="anduAlemTest" duration-ms="6" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- anduAlemTest -->
-        <test-method status="PASS" signature="azebTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="azebTest" duration-ms="1" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
+        <test-method status="PASS" signature="azebTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="azebTest" duration-ms="1" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- azebTest -->
-        <test-method status="PASS" signature="eyerusalemTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="eyerusalemTest" duration-ms="2" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
+        <test-method status="PASS" signature="eyerusalemTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="eyerusalemTest" duration-ms="1" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- eyerusalemTest -->
-        <test-method status="PASS" signature="keyaTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="keyaTest" duration-ms="1" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
+        <test-method status="PASS" signature="keyaTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="keyaTest" duration-ms="1" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- keyaTest -->
-        <test-method status="PASS" signature="mack2Test()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="mack2Test" duration-ms="1" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mack2Test -->
-        <test-method status="PASS" signature="mackTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="mackTest" duration-ms="0" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
+        <test-method status="PASS" signature="mackTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="mackTest" duration-ms="1" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mackTest -->
-        <test-method status="PASS" signature="mahaletTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="mahaletTest" duration-ms="1" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
+        <test-method status="PASS" signature="mahaletTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="mahaletTest" duration-ms="1" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mahaletTest -->
-        <test-method status="PASS" signature="meronTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="meronTest" duration-ms="1" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
+        <test-method status="PASS" signature="meronTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="meronTest" duration-ms="1" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meronTest -->
-        <test-method status="PASS" signature="sumTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="sumTest" duration-ms="2" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
+        <test-method status="PASS" signature="sumTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="sumTest" duration-ms="1" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumTest -->
-        <test-method status="PASS" signature="teddyTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="teddyTest" duration-ms="0" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teddyTest -->
-      </class> <!-- calculator.CalculatorTest -->
+      </class> <!-- calculator.CalculatormackTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
