@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="131" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
+  <suite name="Default suite" duration-ms="135" started-at="2020-04-05T16:10:14 EDT" finished-at="2020-04-05T16:10:14 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="131" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
+    <test name="Default test" duration-ms="135" started-at="2020-04-05T16:10:14 EDT" finished-at="2020-04-05T16:10:14 EDT">
       <class name="calculator.CalculatormackTest">
-        <test-method status="FAIL" signature="MackTest4()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="MackTest4" duration-ms="67" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
+        <test-method status="FAIL" signature="MackTest4()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="MackTest4" duration-ms="50" started-at="2020-04-05T16:10:14 EDT" finished-at="2020-04-05T16:10:14 EDT">
           <exception class="java.lang.NoSuchMethodError">
             <message>
               <![CDATA[com.google.common.base.Preconditions.checkState(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V]]>
@@ -55,35 +55,35 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MackTest4 -->
-        <test-method status="PASS" signature="anduAlemTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="anduAlemTest" duration-ms="6" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
+        <test-method status="PASS" signature="anduAlemTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="anduAlemTest" duration-ms="6" started-at="2020-04-05T16:10:14 EDT" finished-at="2020-04-05T16:10:14 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- anduAlemTest -->
-        <test-method status="PASS" signature="azebTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="azebTest" duration-ms="1" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
+        <test-method status="PASS" signature="azebTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="azebTest" duration-ms="1" started-at="2020-04-05T16:10:14 EDT" finished-at="2020-04-05T16:10:14 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- azebTest -->
-        <test-method status="PASS" signature="eyerusalemTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="eyerusalemTest" duration-ms="1" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
+        <test-method status="PASS" signature="eyerusalemTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="eyerusalemTest" duration-ms="0" started-at="2020-04-05T16:10:14 EDT" finished-at="2020-04-05T16:10:14 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- eyerusalemTest -->
-        <test-method status="PASS" signature="keyaTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="keyaTest" duration-ms="1" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
+        <test-method status="PASS" signature="keyaTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="keyaTest" duration-ms="1" started-at="2020-04-05T16:10:14 EDT" finished-at="2020-04-05T16:10:14 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- keyaTest -->
-        <test-method status="PASS" signature="mackTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="mackTest" duration-ms="1" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
+        <test-method status="PASS" signature="mackTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="mackTest" duration-ms="1" started-at="2020-04-05T16:10:14 EDT" finished-at="2020-04-05T16:10:14 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mackTest -->
-        <test-method status="PASS" signature="mahaletTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="mahaletTest" duration-ms="1" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
+        <test-method status="PASS" signature="mahaletTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="mahaletTest" duration-ms="3" started-at="2020-04-05T16:10:14 EDT" finished-at="2020-04-05T16:10:14 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mahaletTest -->
-        <test-method status="PASS" signature="meronTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="meronTest" duration-ms="1" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
+        <test-method status="PASS" signature="meronTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="meronTest" duration-ms="1" started-at="2020-04-05T16:10:14 EDT" finished-at="2020-04-05T16:10:14 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meronTest -->
-        <test-method status="PASS" signature="sumTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="sumTest" duration-ms="1" started-at="2020-04-05T13:20:55 EDT" finished-at="2020-04-05T13:20:55 EDT">
+        <test-method status="PASS" signature="sumTest()[pri:0, instance:calculator.CalculatormackTest@27a5f880]" name="sumTest" duration-ms="1" started-at="2020-04-05T16:10:14 EDT" finished-at="2020-04-05T16:10:14 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumTest -->
